@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480">
+<defs>
+<filter id="n" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".9 .5" numOctaves="3" seed="4"/><feColorMatrix values="0 0 0 0 .25  0 0 0 0 .17  0 0 0 0 .08  0 0 0 .55 0"/></filter>
+<pattern id="w" width="6" height="6" patternUnits="userSpaceOnUse"><path d="M0 1H6M0 4H6" stroke="#000" stroke-opacity=".13" stroke-width="1.4"/><path d="M1 0V6M4 0V6" stroke="#fff" stroke-opacity=".12" stroke-width="1"/></pattern>
+<clipPath id="c"><path d="M60 190 L340 190 L360 430 Q360 450 340 450 L60 450 Q40 450 40 430 Z"/></clipPath>
+<linearGradient id="s" x1="0" x2="1"><stop offset="0" stop-color="#000" stop-opacity=".18"/><stop offset=".35" stop-color="#fff" stop-opacity=".12"/><stop offset="1" stop-color="#000" stop-opacity=".25"/></linearGradient>
+</defs>
+<ellipse cx="200" cy="458" rx="150" ry="14" fill="#000" opacity=".15"/>
+<path d="M110 192 C100 80 150 70 160 192 M240 192 C250 70 300 80 290 192" fill="none" stroke="#1F3A2E" stroke-width="14" stroke-linecap="round"/>
+<path d="M60 190 L340 190 L360 430 Q360 450 340 450 L60 450 Q40 450 40 430 Z" fill="#B98F52"/>
+<g clip-path="url(#c)"><rect width="400" height="480" fill="url(#w)"/><rect width="400" height="480" filter="url(#n)"/><rect width="400" height="480" fill="url(#s)"/>
+<rect x="0" y="170" width="400" height="26" fill="#1F3A2E" opacity=".55"/><path d="M0 430H400" stroke="#fff" stroke-opacity=".25" stroke-dasharray="6 5"/><rect x="90" y="270" width="220" height="110" fill="none" stroke="#F2E9D4" stroke-width="3"/><path d="M120 330h160M120 350h110" stroke="#F2E9D4" stroke-width="6" stroke-linecap="round"/></g>
+</svg>

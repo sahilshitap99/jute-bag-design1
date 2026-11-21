@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480">
+<defs>
+<filter id="n" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".9 .5" numOctaves="3" seed="4"/><feColorMatrix values="0 0 0 0 .25  0 0 0 0 .17  0 0 0 0 .08  0 0 0 .55 0"/></filter>
+<pattern id="w" width="6" height="6" patternUnits="userSpaceOnUse"><path d="M0 1H6M0 4H6" stroke="#000" stroke-opacity=".13" stroke-width="1.4"/><path d="M1 0V6M4 0V6" stroke="#fff" stroke-opacity=".12" stroke-width="1"/></pattern>
+<clipPath id="c"><path d="M90 200 L310 200 Q335 330 320 440 Q318 452 305 452 L95 452 Q82 452 80 440 Q65 330 90 200 Z"/></clipPath>
+<linearGradient id="s" x1="0" x2="1"><stop offset="0" stop-color="#000" stop-opacity=".18"/><stop offset=".35" stop-color="#fff" stop-opacity=".12"/><stop offset="1" stop-color="#000" stop-opacity=".25"/></linearGradient>
+</defs>
+<ellipse cx="200" cy="458" rx="150" ry="14" fill="#000" opacity=".15"/>
+<path d="M130 205 Q130 150 200 150 Q270 150 270 205" fill="none" stroke="#6B4A24" stroke-width="12" stroke-linecap="round"/>
+<path d="M90 200 L310 200 Q335 330 320 440 Q318 452 305 452 L95 452 Q82 452 80 440 Q65 330 90 200 Z" fill="#D2B07A"/>
+<g clip-path="url(#c)"><rect width="400" height="480" fill="url(#w)"/><rect width="400" height="480" filter="url(#n)"/><rect width="400" height="480" fill="url(#s)"/>
+<rect x="0" y="170" width="400" height="26" fill="#6B4A24" opacity=".55"/><path d="M0 430H400" stroke="#fff" stroke-opacity=".25" stroke-dasharray="6 5"/><path d="M130 330l35-40 35 40 35-40 35 40" fill="none" stroke="#9B3D2A" stroke-width="7" stroke-linejoin="round"/><path d="M130 365l35-40 35 40 35-40 35 40" fill="none" stroke="#1F3A2E" stroke-width="7" stroke-linejoin="round"/></g>
+</svg>
